@@ -1,10 +1,12 @@
 Prerender In-Memory Cache plugin
 ===========================
 
-This is a plugin meant to be used with your Prerender server to cache responses in memory
+This is a plugin meant to be used with your Prerender server to cache responses in memory.
+
+Run this from within your Prerender server directory:
 
 ```bash
-$ npm install prerender-memory-cache
+$ npm install prerender-memory-cache --save
 ```
 ##### server.js
 ```js
