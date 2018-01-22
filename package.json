@@ -1,0 +1,11 @@
+{
+  "name": "prerender-memory-cache",
+  "version": "1.0.0",
+  "description": "In memory cache for use with Prerender server",
+  "main": "index.js",
+  "author": "Todd Hooper",
+  "license": "MIT",
+  "dependencies": {
+    "cache-manager": "^2.6.0"
+  }
+}
