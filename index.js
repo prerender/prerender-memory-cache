@@ -19,7 +19,7 @@ module.exports = {
 	},
 
 	beforeSend: function(req, res, next) {
-		if (!req.prerender.cacheHit) {
+		if (!req.prerender.cacheHit && req.prerender.statusCode == 200) {
 			this.cache.set(req.prerender.url, req.prerender.content);
 		}
 		next();
